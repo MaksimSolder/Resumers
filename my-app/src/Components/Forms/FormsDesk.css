@@ -1,0 +1,38 @@
+.formsdesk {
+    border: 1px solid #46d9b4;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.formsdesk__basic {
+    border: 1px solid #46d9b4;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 50%;
+}
+
+.formsdesk__inputblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.75rem;
+    align-items: center;
+}
+
+.formsdesk__inputblock h4 {
+    margin: 0;
+    padding-right: 0.25rem;
+    color: #319078;
+}
+
+.formsdesk__inputblock input {
+    height: 2.5rem;
+    width: 30vw;
+    font-size: 1.25rem;
+    border: 1px solid #46d9b4;
+    border-radius: 0.75rem;
+    padding: 0.25rem;
+}

@@ -1,0 +1,8 @@
+.header {
+    background-color: #46d9b4;
+    padding: 1rem;
+}
+
+.header__brand {
+    color: white;
+}

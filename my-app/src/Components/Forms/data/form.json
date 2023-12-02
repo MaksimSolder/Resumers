@@ -1,0 +1,40 @@
+{
+  "basic": [
+    {
+      "type": "text",
+      "placeholder": "ФИО",
+      "name": "ФИО",
+      "key": "fio"
+    },
+    {
+      "type": "text",
+      "placeholder": "Занятость",
+      "name": "Занятость",
+      "key": "workfull"
+    },
+    {
+      "type": "text",
+      "placeholder": "График работы",
+      "name": "График работы",
+      "key": "agilee"
+    },
+    {
+      "type": "text",
+      "placeholder": "Желаемая зарплата",
+      "name": "Желаемая зарплата",
+      "key": "cost"
+    },
+    {
+      "type": "text",
+      "placeholder": "Телефон",
+      "name": "Телефон",
+      "key": "phone"
+    },
+    {
+      "type": "text",
+      "placeholder": "Email",
+      "name": "Email",
+      "key": "email"
+    }
+  ]
+}
