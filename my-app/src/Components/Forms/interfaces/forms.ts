@@ -2,5 +2,6 @@ export interface IInput {
     name: string,
     type: string,
     placeholder: string,
-    key: string,
+    keys: string,
+    change: any
 }

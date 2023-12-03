@@ -4,19 +4,20 @@
     margin: 1rem;
     padding: 0.5rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .formsdesk__basic {
     border: 1px solid #46d9b4;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    width: 50%;
+    margin-top: 0.25rem;
 }
 
 .formsdesk__inputblock {
     display: flex;
     flex-direction: row;
+    width: 50%;
     justify-content: space-between;
     margin-top: 0.75rem;
     align-items: center;

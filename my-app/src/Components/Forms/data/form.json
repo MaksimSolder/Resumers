@@ -4,37 +4,69 @@
       "type": "text",
       "placeholder": "ФИО",
       "name": "ФИО",
-      "key": "fio"
+      "keys": "fio"
     },
     {
       "type": "text",
       "placeholder": "Занятость",
       "name": "Занятость",
-      "key": "workfull"
+      "keys": "workfull"
     },
     {
       "type": "text",
       "placeholder": "График работы",
       "name": "График работы",
-      "key": "agilee"
+      "keys": "agilee"
     },
     {
       "type": "text",
       "placeholder": "Желаемая зарплата",
       "name": "Желаемая зарплата",
-      "key": "cost"
+      "keys": "cost"
     },
     {
       "type": "text",
       "placeholder": "Телефон",
       "name": "Телефон",
-      "key": "phone"
+      "keys": "phone"
     },
     {
       "type": "text",
       "placeholder": "Email",
       "name": "Email",
-      "key": "email"
+      "keys": "email"
+    }
+  ],
+  "private": [
+    {
+      "type": "text",
+      "placeholder": "Гражданство",
+      "name": "Гажданство",
+      "keys": "mentain"
+    },
+    {
+      "type": "text",
+      "placeholder": "Место происхождения",
+      "name": "Место происхождения",
+      "keys": "place"
+    },
+    {
+      "type": "date",
+      "placeholder": "Дата рождения",
+      "name": "Дата рождения",
+      "keys": "date"
+    },
+    {
+      "type": "text",
+      "placeholder": "Пол",
+      "name": "Пол",
+      "keys": "gender"
+    },
+    {
+      "type": "text",
+      "placeholder": "Семейное положение",
+      "name": "Семейное положение",
+      "keys": "family"
     }
   ]
 }

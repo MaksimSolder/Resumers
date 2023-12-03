@@ -2,16 +2,19 @@ import React from 'react';
 import data from "./data/form.json";
 import Input from "./Input/Input";
 
-const FormBasic = () => {
+const FormBasic = ({setData}: any) => {
     return (
         <div className="formsdesk__basic">
             <h3>Основная информация</h3>
-            {data.basic.map((input) => {
+            {data.basic.map((input, index) => {
                 return <Input
+                    key={index}
                     name={input.name}
                     type={input.type}
                     placeholder={input.placeholder}
-                    key={input.key}/>
+                    keys={input.keys}
+                    change={setData}
+                />
             })}
         </div>
     );
